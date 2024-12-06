@@ -1,0 +1,60 @@
+/* Header styles */
+.header {
+  width: 1920px; /* Fixed width as specified */
+  height: 88px; /* Fixed height as specified */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4; /* You can customize this color */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px; /* Adds spacing inside the container */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* Adjust space between logo icon and text */
+}
+
+.logo-icon {
+  font-size: 32px; /* Adjust icon size */
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* Customize logo text color */
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px; /* Adjust space between toggle and avatar */
+}
+
+.saved-jobs-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Adjust space between checkbox and label */
+  font-size: 16px;
+  color: #666;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  background-color: #ddd; /* Placeholder background */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #333;
+}
